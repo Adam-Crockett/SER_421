@@ -1,0 +1,11 @@
+{"dictionary" : [{"keyword" : "yes",  "responses" : ["Ok so you agree?", "Yep. I would say so.", "Are you sure?", 
+				 "Respond with something else.", "I'm gonna say yes too."]},
+				 {"keyword" : "no",  "responses" : ["Why's that?", "You mean yes, right? Opposite day lingo.", 
+				 "How come?", "Fine then.", "Ohh ok."]},
+				 {"keyword": "DEF_AULT", "responses" : ["I'm getting nothing out of that response.", "What the what? ", 
+				 "This is not the answer I expected.", "Surprise!! Just kidding.", "So much to say yet don't want to.", 
+				 "I'm alright with that.", "It's like this time I can't remember.", "Yup, I think.", 
+				 "Liar liar pants on fire.", "But you said something different before.", "Ok. That's something to think about.", 
+				 "Whatcha mean?", "I'll do that.", "Happy to be not dead?" ]}
+                ]
+}

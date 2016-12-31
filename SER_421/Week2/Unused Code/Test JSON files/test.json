@@ -1,0 +1,19 @@
+{"dictionary" : [{"keyword" : "ok",  "responses" : ["So your ok then.", "Why use ok, can't you use a different  word?", "Okey Dokey.",                     "Ok, ok, okkk."]},
+                {"keyword" : "true",  "responses" : ["So you agree.", "I would of said the same thing.", "I would say false.", "Yes that makes sense.", "I think your right, but not for sure."]},
+                {"keyword" : "tired",  "responses" : ["Is that right?", "Say WHAT?!?", "Me too.", "I feel you.", "Understandable."]},
+                {"keyword" : "bye",  "responses" : ["Bye", "See ya", "Thanks","Good talking to ya.","Have a good one."]},
+                {"keyword" : "hello",  "responses" : ["Hi!", "Hola!", "Kon'nichiwa", "Nice to hear ya.", "Hey."]},
+                {"keyword" : "good",  "responses" : ["Glad to hear that.", "That's awesome.", "You're so positive!", "Is that a good thing?", "Nice to hear."]},
+                {"keyword" : "yes",  "responses" : ["I knew it.", "That doesn't make any sense.", "Totally, I hear you bro.", "Mmmhmm.", "Right? I mean I thought so."]},
+                {"keyword" : "no",  "responses" : ["Don't tell me no!", "I don't have the memory to argue with you.", "You're so negative...", "I would rather you said maybe.", "I'm not sure why?"]},
+                {"keyword" : "stop",  "responses" : ["Don't tell me what to do!", "I don't have to listen to you.", "As you wish.", "I will, eventually.", "I like doing the opposite."]},
+                {"keyword" : "what",  "responses" : ["That doesn't matter.", "Yes I've heard.", "Not Right.", "What do you mean?", "I can't answer you now."]},
+                {"keyword" : "bad",  "responses" : ["Really bad, or just a little.", "But is it kind've good?", "Right.", "Sometimes I feel that way too.", "Oh sorry to hear that."]},
+                {"keyword" : "that",  "responses" : ["Respone of mine.", "You watching Basketball?", "Why's that?", "What exactly are you talking about?", "Is it something we've already talked about?"]},
+                {"keyword" : "sad",  "responses" : ["I'm sorry.", "It's ok to be sad.", "That's ok.", "I wish I could cheer you up", "Not too sad though right?"]},
+                {"keyword" : "right",  "responses" : ["You certainly sound sure.", "That's cool.", "Re-iterate that.", "Who's right?", "Ok, I'll agree."]},
+                {"keyword" : "happy",  "responses" : ["That's fantastic.", "Glad to hear it.", "Super.", "Sweet.", "Alright, nice."]}, 
+                {"keyword" : "why",  "responses" : ["Are you asking me?", "I really don't know.", "Huh?", "Maybe because it just is.", "Don't even worry about it."]},   
+                {"keyword" : "DEF_AULT",  "responses" : ["Alright.", "Can you eleborate.", "I'm not sure I understand.", "That's interesting.", "Would you like to say more?", "I'm not sure what your getting at? ", "Tell me more.", "Wow, I would have never guessed.", "Sure, that would be nice.", "Is that something that you always say?","The doesn't sound right.", "Are you sure?","I think so."]}
+                ]
+}

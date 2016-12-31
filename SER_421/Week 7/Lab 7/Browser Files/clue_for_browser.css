@@ -1,0 +1,26 @@
+body {
+	background: #F0E68C;
+	height:100%;
+	width:100%;
+    background-image: url("question_mark.png");
+    background-repeat: repeat;
+    font-size: 20px;
+    font-weight:bold; 
+    text-align: center; 
+}
+
+h1 {   
+    margin: 30px 30px 0px 30px;
+    font-size: 70px; 
+    background: rgba(255, 255, 255, 0.7);
+}
+
+form {    
+    margin: 0px 30px 0px 30px;  
+    background: rgba(255, 255, 255, 0.7);
+}
+
+div{
+    margin: 0px 30px 0px 30px;
+    background: rgba(255, 255, 255, 0.7);
+}

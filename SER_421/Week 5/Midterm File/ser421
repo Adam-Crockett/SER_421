@@ -1,0 +1,214 @@
+ASURITE: psharif	Tue Nov 15 00:25:43 MST 2016
+
+????  ?SER421 Fall 2016                 FORM Online                     Midterm Exam, November 14, 2016
+
+????  Name:  Pedram Sharif___________________________________ASURITE:___psharif__________________________
+
+????  I.      (10 points) Multiple Choice. SELECT BY PUTTING AN ASTERISK * NEXT TO THE ANSWER that applies.
+????  1) HTTP is an always _____________   protocol:
+
+????     a) Stateless *                 b) Asynchronous                  c) Connection-oriented            d) Connectionless 
+
+
+????  2) Which of the following is NOT one of the ways you can manipulate the event queue in NodeJS:
+
+????     a) event listeners & emitters             b) timers           c) spawn a process *                d) blocking I/O 
+
+
+????  3) The Model part of the MVC pattern addresses these concerns in web application development:
+
+????     a) Business logic & Data Access *        b) Presentation & Data Access                 c) Business logic & Presentation
+
+????  4) Which of the following parts MVC design oattern has no direct mapping to the concerns of the previous question:
+
+????     a) Model                          b) View                      c) Controller *                   d) Request                     e) Response
+
+????  5) Which of the following is NOT a characteristic of the programming model in NodeJS?
+
+????     a) functional                     b) Object-oriented *           c) component-container *          d) asynchronous
+
+????  II. (9 points). 
+????      a)   (6) What does it mean to be a stateless protocol?
+		
+		The outcome of or response of to the current request does not depend on the outcomes or responses of previous requests.
+
+????      b)   (3) What is the term given to a bounded interaction between a browser and a web server application?
+		
+		Tightly Coupled. 
+
+
+
+
+????  III. (8 points) Web Application Architectures.    Matching. 
+????  Match the web application architecture on the left with the best description of that architecture on the right.
+
+
+????  _____C___ CGIs                        A. Single-threaded asynchronous event queue. 
+
+
+????  _____B_____ Server-side Scripts         B. Server parses the file and interprets behavior before sending response
+
+
+????  _____D_____ Servlets                    C. Spawns a new process for each HTTP request
+
+
+????  _____A_____ NodeJS                      D. Components that run in a container providing services 
+
+
+????  IV. (10 points) Design Concepts. For the following question, match the design term on the left with the description on the 
+????  right by placing the letter of the description in the space on the left.
+
+
+????  _____E_____ SoC              A. Describes both a structural layer in enterprise software that sits between 
+????                              components making a request and components servicing the request, 
+????                              AND the operations inserted into the request process pipeline.
+
+????  _____A____ Middleware       B. Layers of a phyical deployed architecture for web/enterprise apps
+
+
+????  _____B____ n-tier           C. The act of determining which function/object/handler to delegate to in a
+????                                 Controller based on information provided in an HTTP request
+
+????  _____D____ Synchronous      D. A client blocks (waits) until a response is received from a request.
+
+
+????  _____C____ Routing          E. The decoupling of responsibilities in a web application architecture 
+
+
+????  V. (12 points). Put the steps of our general Template pattern for web applications into order by numbering these steps 1 
+????  to 6 in the blanks to the LEFT. In the blank to the RIGHT indicate which part of the M,V,C pattern handles that step.
+
+
+????  ____3______              Routing the request to a handler (collect underpants)           ____C,M___
+
+
+
+????  ____5______              Assigning response headers.                                     ____V_____
+
+
+
+????  ____1______              Processing request headers                                      ____C_____
+
+
+
+????  ____4______              Assembling the response payload                                 ____V_____
+
+
+
+????  ____6______              Writing out the response to the output stream                   ____V_____
+
+
+
+????  ____2______              Processing request parameters                                   ____C_____
+
+
+
+????  VI. HTTP (10 points)
+????  a) (2) HTTP can be connection-oriented or connectionless. What physical computing resource do these terms describe?
+
+	A socket. Application Layer. 
+
+
+
+
+????  b) (2) Who requests a persistent connection, and who decides whether the connection is persistent? (the client [browser] 
+????  or the web server)
+
+	The client requests a persistent connection. The server decides if it can keep the connection persistent. 
+
+
+
+
+????  c) (2) Which level of HTTP response codes (1xx, 2xx, 3x, 4xx, or 5xx) indicates the client (browser) sent an improper 
+????  request of some kind??
+	
+	4xx
+
+
+
+????  VII. HTML (6 points). There were 2 factions that tried to evolve HTML in 2 directions. #1: one direction was to create a 
+????  structured and more semantically meaningful representation format, and #2 the other supported a more forgiving syntax.
+
+????  i)      (2) Which group won out (#1 or #2 above) 
+		
+		#2
+
+????  ii)     (2) Why did they win out?
+
+		
+		Because it was error-forgiving. 
+
+
+
+????  iii)    (2) Even though one group lost, how did it influence the HTML5 we see today?
+		
+		More structured syntax. Updates to Forms. New Object types. Updates to existing tags.  
+
+
+		
+
+
+????  VIII. Stateful coding on the web (13 points)
+????  a) (5) We discussed various types of state and mechanisms for implementing those forms of state. On the left are types of 
+????  state we discussed. On the right are implementation technologies. In the blank on the left put ALL of the letters of 
+????  technologies suitable for implementing that form of state. Use each implementation letter EXACTLY ONCE.
+
+
+
+????  ________A____________World model state                  A. Flat file system
+????                                                          B. URL Rewriting
+????  ________D,E,B________ Conversational state              C. Cookies
+????                                                          D. Express Sessions
+????  ________C____________ User profile state                E. Hidden form fields
+
+
+????  b)(4) Now pick any of the terms on the right you used for conversational state, and give i) a benefit, ii) and a drawback
+
+	URL Rewriting: 
+	
+	i) benefit: portable 
+	
+	ii)drawback: possibly not secure, all URL’s need to be modified. 
+
+
+
+????  c)(4) Web application architectures generally store conversational state on the server-side nowadays. Describe one 
+????  benefit of this design decision, and also describe one possible drawback.
+
+	One benefit is that it can be encrypted, and there is a key exchange as part of the process. 
+
+	One drawback is that user experience suffers, and it’s computationally more expensive. 
+
+
+????  IX. Node/Express (22 points). For this question use the figure at http://swent1linux.asu.edu:8081/Q9.png
+
+????  a) (6) Consider the figure. Which of the requests, R1, R2, R3, or R4, shows the best computational profile in 
+????  NodeJS? Explain WHY it is the best?
+
+	R2 is the best computational profile. Because the request is making short non-blocking calls. In other words it’s processing 
+       tasks quickly and returning to the event queue to process the next request. By looking at the figure the time it takes to handle   requests is the fastest.  
+
+
+
+
+????  b) (6) Which one shows the worst computational profile. Explain WHY it is the worst. 
+	
+	R4 is the worst computational profile. This profile seems like it’s taking a longer time to process a task. It’s blocking for a    longer period of time then any of the other profiles. 
+
+
+
+
+????  c) (4) For each term below indicate whether it pertains to the M the V or the C part of the MVC pattern in the context 
+????  of the NodeJS + Express technology stack. Leave it blank if it has nothing to do with MVC. 
+
+
+????  ____C_____ routing (app.get/post/all)         ____V_____ Jade             ___V______ EJS                   ____M_____ fs
+
+
+ 
+????  d) (6) We have discussed the concept of impedance mismatch in several ways so far in this course. HTTP is synchronous 
+????  yet NodeJS is asynchronous - does this cause an impedance mismatch problem? Why or why not?
+
+	Node recognizes the possibility of impedance mismatch that can be caused from asynchronous and synchronous (or blocking I/O) processes. So instead it issues a callback functions that executes when a certain processes need to block, and then executes the callback when the process is free again. This  
+
+	

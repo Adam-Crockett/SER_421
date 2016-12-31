@@ -1,0 +1,85 @@
+<!--Main Page rendered with Handlebars --> 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>e421Match Login</title>  
+        <header>
+            <h1>e421Matches</h1>
+        </header>
+        <style>
+            head {
+                border-style: solid;
+                border-width: 1px;
+                
+            }
+            
+            header {
+                text-align: center;
+                height: 60px;
+                width: 400px;
+                border-style: solid;
+                border-width: 1px;
+            }
+            
+            .login {
+                height: 150px;
+                width: 400px;
+                margin-right: 50%;
+                border-style: solid;
+                border-width: 1px;
+            }
+            
+            .logout {
+                height: 150px;
+                width: 400px;
+                border-style: solid;
+                border-width: 1px;
+                text-align: center;
+                
+            }
+            
+            form {
+                
+            }
+        
+            .logoutbut {
+                padding-top: 100px;
+                text-align: left;
+            }
+            
+            .survey {
+                padding-left: 5px;
+                border-style: solid;
+                border-width: 1px;
+                height: 270px;
+                width: 395px;
+            }
+            
+            .next {
+                text-align: left;
+            }
+        
+        </style>
+    </head>
+    
+    <body>
+        <div class="survey">
+            <h3><%= question %></h3>
+            
+                
+            <form class="next" action="<%= path %>" >
+                <input type="radio" name="answer" value="1" <%=check1%>/><%= answer1%><br>
+                <input type="radio" name="answer" value="2" <%=check2%>/><%= answer2%><br>
+                <input type="radio" name="answer" value="3" <%=check3%>/><%= answer3%><br>
+                <input type="submit" value="Next">
+            </form>      
+                
+                
+            <form class="logoutbut" action="/logout">
+                <input type="submit" value="Log Out">
+            </form>
+        </div>
+    </body>
+</html>

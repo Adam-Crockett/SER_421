@@ -1,0 +1,87 @@
+this.getBestMatches = function(user){
+     //var users    = JSON.parse(fs.readFileSync('userstore.json', 'utf8'));
+     var matchStack = [];
+     var userMatches=0;
+    
+    for(i = 0; i < users.userStore.length; i++){
+        if(user.userStore[i].username == user)
+            {
+                var userNum = i;
+            }
+    }
+    
+    for(i = 0; i < users.userStore.length; i++){
+        if(user.userStore[i].username == user)
+            {
+                console.log("ignoring self");
+            }else{
+                if( users.userStore[i].q1 == users.userStore[userNum].q1 && // Case 1
+                    users.userStore[i].q2 == users.userStore[userNum].q2 &&
+                    users.userStore[i].q3 == users.userStore[userNum].q3 && 
+                    userMatches < 4)
+                    {
+                        matchStack.push(users.userStore[i].username);
+                        userMatches++;
+                    }
+                else if(users.userStore[i].q1 == users.userStore[userNum].q1 && //Case 2
+                        users.userStore[i].q2 == users.userStore[userNum].q2 && 
+                        users.userStore[i].q3 != users.userStore[userNum].q3 && 
+                        userMatches < 4)
+                        {
+                            matchStack.push(users.userStore[i].username);
+                            userMatches++;
+                        }
+                else if(users.userStore[i].q1 != users.userStore[userNum].q1 && //Case 3
+                        users.userStore[i].q2 == users.userStore[userNum].q2 &&
+                        users.userStore[i].q3 == users.userStore[userNum].q3 && 
+                        userMatches < 4)
+                        {
+                            matchStack.push(users.userStore[i].username);
+                            userMatches++;
+                        }
+                else if(users.userStore[i].q1 == users.userStore[userNum].q1 && // Case 4
+                        users.userStore[i].q2 != users.userStore[userNum].q2 && 
+                        users.userStore[i].q3 == users.userStore[userNum].q3 && 
+                        userMatches < 4)
+                        {
+                            matchStack.push(users.userStore[i].username);
+                            userMatches++;
+                        }
+                else if(users.userStore[i].q1 != users.userStore[userNum].q1 && // Case 5
+                        users.userStore[i].q2 == users.userStore[userNum].q2 &&
+                        users.userStore[i].q3 != users.userStore[userNum].q3 && 
+                        userMatches < 4)
+                        {
+                            matchStack.push(users.userStore[i].username);
+                            userMatches++;
+                        }
+                else if(users.userStore[i].q1 == users.userStore[userNum].q1 && // Case 6
+                        users.userStore[i].q2 != users.userStore[userNum].q2 && 
+                        users.userStore[i].q3 != users.userStore[userNum].q3 && 
+                        userMatches < 4)
+                        {
+                            matchStack.push(users.userStore[i].username);
+                            userMatches++;
+                        }
+                else if(users.userStore[i].q1 != users.userStore[userNum].q1 && // Case 7
+                        users.userStore[i].q2 != users.userStore[userNum].q2 && 
+                        users.userStore[i].q3 == users.userStore[userNum].q3 && 
+                        userMatches < 4)
+                        {
+                            matchStack.push(users.userStore[i].username);
+                            userMatches++;
+                        }
+                else if (userMatches < 4)  //Case 8
+                        {
+                            matchStack.push(users.userStore[i].username);
+                            userMatches++;
+                        }
+            } //else block
+        
+       // return matchStack;
+    }
+     return matchStack; 
+}
+
+
+

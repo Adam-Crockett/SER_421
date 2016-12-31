@@ -1,0 +1,12 @@
+{"dictionary" : [{"keyword" : "right",  "responses" : ["But do you really think you are right?", "No, that's sort of wrong.", 
+				"Ok. I can believe that.", "Respond again.", "I'm gonna disagree. But I don't know why?"]},
+				 {"keyword" : "ok",  "responses" : ["Is that all you are gonna say?", "Yep, that's ok then.", 
+				 "Well that's better than no.", "Kind've wanted a more enthusiastic response. But I'll take that.", 
+				 "Not ok. But kind've ok."]},
+				 {"keyword": "DEF_AULT", "responses" : ["I'm almost with you on that.", "That's all folks. ", 
+				 "What would Chuck Norris say?", "I have no idea what you are talking about.", "Sorry I wasn't listening.", 
+				 "Sometimes I wonder if I ever make sense.", "There you go.", "I need some time to process that.", 
+				 "I think you're great. But not as good as me.", "What's gotten into you.", "I'm gonna curse myself, and then see what you type.", 
+				 "Holy Smokes.", "Son of a Gun.", "I like to say random stuff, so here goes. Shampoo or conditioner or both?" ]}
+                ]
+}

@@ -1,0 +1,12 @@
+{"dictionary" : [{"keyword" : "ok",  "responses" : ["So your ok then.", "Why use ok, can't you use a different word?", "Okey Dokey."]},
+                {"keyword" : "true",  "responses" : ["So you agree.", "I would of said the same thing.", "I would say false."]},
+                {"keyword" : "sample",  "responses" : ["Is that right?", "Say WHAT?!?", "Samples are just awesome."]},
+                {"keyword" : "bye",  "responses" : ["Bye", "See ya", "Thanks"]},
+                {"keyword" : "hello",  "responses" : ["Hi!", "Hola!", "Kon'nichiwa"]},
+                {"keyword" : "good",  "responses" : ["Glad to hear that.", "That's awesome.", "You're so positive!"]},
+                {"keyword" : "yes",  "responses" : ["I knew it.", "That doesn't make any sense.", "Totally, I hear you bro."]},
+                {"keyword" : "no",  "responses" : ["Don't tell me no!", "I don't have the memory to argue with you.", "You're so negative..."]},
+                {"keyword" : "stop",  "responses" : ["Don't tell me what to do!", "I don't have to listen to you.", "As you wish."]},
+                {"keyword" : "DEF_AULT",  "responses" : ["Alright.", "Can you eleborate.", "I'm not sure I understand.", "That's interesting.", "Would you like to say more?", "I'm not sure what your getting at? ", "Tell me more.", "Wow, I would have never guessed.", "Sure, that would be nice.", "Is that something that you always say?","The doesn't sound right.", "Are you sure?","I think so."]}
+                ]
+}

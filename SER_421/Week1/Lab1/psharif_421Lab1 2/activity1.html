@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lab 1 Activity 1</title>
+    </head>
+    <body>
+        <form action="http://lead1.poly.asu.edu/cgi-bin/cgiquery.pl" method="GET">
+            Color:
+            <input type="color" name="psharif_color" required>
+            <br /> 
+            Date: 
+            <input type="date" name="psharif_date" min="2010-06-01" max="2016-10-01" required>
+            <br /> 
+            DateTime: 
+            <input type="datetime" name="psharif_datetime" required>
+            <br />
+            DateTime-local: 
+            <input type="datetime-local" name="psharif_datetime-local" required>
+            <br />
+            E-mail:
+            <input type="email" name="psharif_email" required>
+            <br /> 
+            Month: 
+            <input type="month" name="psharif_month" required>
+            <br /> 
+            Number: 
+            <input type="number" name="psharif_number" value="10" required>
+            <br />
+            Range: 
+            <input type="range" name="psharif_range" min="-20" max="20" required>
+            <br />
+            Search: 
+            <input type="search" name="psharif_search" required>
+            <br />
+            Telephone:
+            <input type="tel" name="psharif_tel" required>
+            <br /> 
+            Time: 
+            <input type="time" name="psharif_time" required>
+            <br /> 
+            URL: 
+            <input type="url" name="psharif_url" required>
+            <br />
+            Week: 
+            <input type="week" name="psharif_week" required>
+            <br />
+            Routing number: 
+            <input type="text" name="psharif_RTN" pattern="[1-9][0-9]{8}\s[0-9]{12}\s[0-9]{4}" style="width:200px" required>
+            <br />
+            <input type="submit"> 
+        </form> 
+    </body>
+</html>

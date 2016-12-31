@@ -1,0 +1,5 @@
+{"dictionary" : [{"keyword" : "different",  "responses" : ["So..yeah", "That's ok.", "I understand I think."]},
+                {"keyword" : "that",  "responses" : ["Testing you", "Right.", "Oh ok."]},
+                {"keyword" : "ok",  "responses" : ["I wasn't here before was I ? ", "Maybe.", "That's a bit strange."]}
+                ]
+}

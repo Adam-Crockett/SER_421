@@ -1,0 +1,62 @@
+<!--Main Page rendered with Handlebars --> 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>e421Match Login</title>  
+        <header>
+            <h1>e421Matches</h1>
+        </header>
+        <style>
+            head {
+                border-style: solid;
+                border-width: 1px;
+                
+            }
+            
+            header {
+                text-align: center;
+                height: 60px;
+                width: 400px;
+                border-style: solid;
+                border-width: 1px;
+            }
+            
+            .login {
+                height: 150px;
+                width: 400px;
+                margin-right: 50%;
+                border-style: solid;
+                border-width: 1px;
+            }
+            
+            .logout {
+                height: 150px;
+                width: 400px;
+                border-style: solid;
+                border-width: 1px;
+                text-align: center;
+            }
+            
+            form {
+                padding-top: 50px;
+                text-align: center;
+            }
+        
+        
+        
+        </style>
+    </head>
+    
+    <body>
+        
+        <div class="logout">
+            <form action="/login">
+                <b><%=logoutMessage%></b><br>
+                <input type="submit" value="Sign In">
+            </form>
+        </div>
+           
+    </body>
+</html>

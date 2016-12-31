@@ -1,0 +1,11 @@
+{"dictionary" : [{"keyword" : "yes",  "responses" : ["Not too good, right?", "Your just too smooth.", "Happy for ya.", "Ok so you agree?", 
+				 "Yep. I would say so.","Wish you luck then.", "I would say somehting. But I don't think I need to."]},
+				 {"keyword" : "ok",  "responses" : ["Ohh ok.","I'm the best is what you mean though.", "Not ok. But kind've ok.", "Don't worry. I'll be here for ya.", 
+				 "Kind've hoping for better news.", "You wanna talk about it.", "Yep, that's ok then.", "I'm sure you will be better."]},
+				 {"keyword": "DEF_AULT", "responses" : ["I like that.", "You would say that. ", "Knock knock.", "I was gonna get to that.", 
+				 "Right. Yep. Or maybe not.",  "But you said something different before.", "Sometimes I think maybe dog language would be easier.", 
+				 "Watch what I can do. *I< That's me lifting weights on the computer.", "Whaaat?", 
+				 "", "What's gotten into you.", "Holy Smokes.", "I can't help what you think. But I will say no thank you on that.", 
+				 "Son of a Gun.", "Ok. That's something to think about." ]}
+                ]
+}

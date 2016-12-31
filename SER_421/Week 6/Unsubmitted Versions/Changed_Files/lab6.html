@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+</head>
+
+<h1>LAB 6</h1>
+    <div class="panel-body">
+          The average temperature is <b><span id="tempAveAll"></span>&deg;F</b> and the hottest city is <b><span id="hottestCity"></span></b>
+        <br>
+        The city with the nicest weather is <b><span id="nicestCity"></span></b>
+        <br>
+    </div>
+<br>
+
+<table border="2">
+  <tr>
+    <th>Forecast</th>
+    <th>City</th>
+    <th>Timestamp</th>
+    <th>Temp&deg;F & Feels Like&deg;F</th>
+    <th>Humidity %</th>
+    <th>Windspeed</th>
+    <th>Condition</th>
+  </tr>
+  <tr>
+    <td><button type="button" class = "btn btn-primary" id="phxButton"> Forecast </button></td>
+    <td>Phoenix</td>
+    <td><p><span id="tUpdate1"></span><span id="tUpdateIndicator1"></span></p></td>
+    <td><p><span id="temp1"></span></p></td>
+    <td><p><span id="humidity1"></span></p></td>
+    <td><p><span id="wind1"></span></p></td>
+    <td><span id="condition1"></span></td>
+  </tr>
+  <tr>
+    <td><button type="button" class = "btn btn-primary" id="parButton"> Forecast </button></td>
+    <td>Paris</td>
+    <td><p><span id="tUpdate2"></span></p></td>
+    <td><p><span id="temp2"></span></p></td>
+    <td><p><span id="humidity2"></span></p></td>
+    <td><p><span id="wind2"></span></p></td>
+    <td><span id="condition2"></span></td>
+  </tr>
+  <tr>
+    <td><button type="button" class = "btn btn-primary" id="selcButton"> Forecast </button></td>
+    <td><select id="dropDownCity">
+  <!--<option value="Select City">Select City</option>-->
+  <option value="Rome">Rome</option>
+  <option value="Las Vegas">Las Vegas</option>
+  <option value="Chicago">Chicago</option>
+  <option value="Tokyo">Tokyo</option>
+  <option value="Grand Caymans">Grand Caymans</option>
+  </select></td>
+   <td><p><span id="tUpdate3"></span></p></td>
+    <td><p><span id="temp3"></span></p></td>
+    <td><p><span id="humidity3"></span></p></td>
+    <td><p><span id="wind3"></span></p></td>
+    <td><span id="condition3"></span></td>
+  </tr>
+ <tr>
+</table>
+<br>
+  <button type="button" class = "btn btn-primary" id="wButton"> Refresh </button>  
+</div>
+<div id="foreCastText"></div>
+
+<html>
+
+<body>
+ <div id="weather1"></div>
+    <p><span id="tUpdate"></span><span id="tUpdateIndicator1"></span></p>
+    <p><span id="temp"></span></p>
+    <p><span id="humidity"></span></p>
+    <p><span id="wind"></span></p>
+    <p><span id="condition"></span></p>
+<div id="weather2"></div>
+    <p><span id="tUpdate2"></span></p>
+    <p><span id="temp2"></span></p>
+    <p><span id="humidity2"></span></p>
+    <p><span id="wind2"></span></p>
+    <p><span id="condition2"></span></p>
+<div id="weather3"></div>
+    <p><span id="tUpdate3"></span></p>
+    <p><span id="temp3"></span></p>
+    <p><span id="humidity3"></span></p>
+    <p><span id="wind3"></span></p>
+    <p><span id="condition3"></span></p>
+<div id="foreCastText"></div>
+    <script src="lab6.js"></script>
+</body>
+
+</html>

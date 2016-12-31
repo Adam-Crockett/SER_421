@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Clue</string>
+    <string name="name_entry">Enter Your Name</string>
+    <string name="button">Submit</string>
+</resources>

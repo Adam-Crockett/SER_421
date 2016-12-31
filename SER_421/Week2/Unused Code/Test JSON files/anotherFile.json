@@ -1,0 +1,5 @@
+{"dictionary" : [{"keyword" : "ok",  "responses" : ["So your ok then.", "Guess so.", "I'm not to certain of that."]},
+                {"keyword" : "said",  "responses" : ["I think you might be right.", "Maybe.", "I say a lot of things."]},
+                {"keyword" : "DEF_AULT",  "responses" : ["That's something.",  "Yes please. ", "Why?"]}
+                ]
+}
